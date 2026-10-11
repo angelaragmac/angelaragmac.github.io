@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angela | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home">
+        <img class="logo-closed" src="images/logo-closed.png" alt="Angela, home">
+        <img class="logo-open" src="images/logo-open.png" alt="">
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <p class="greeting">Avisala, my name is</p>
+      <h1>Angela</h1>
+      <p class="tagline">Just a girl with big dreams😜</p>
+      <div class="hero-links">
+        <a class="btn" href="#projects">View My Work</a>
+        <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+      </div>
+    </section>
+
+    
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <div class="about-grid">
+  
+        <img class="about-photo" src="images/about.png" alt="Angela">
+        <div class="about-text">
+          
+          <p>
+            Annyeonghasaeyo! junun Angela Mae Ragmac imnida, junun Filipino imnida. A freshman IT student surviving on caffeine, deadlines, and pure determination.
+          </p>
+          <p>
+            Proud of every project that actually works… even if it takes ten tries. Always curious about new tech, and currently dreaming of building something awesome next! ✨
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <p class="skill-icon">💻</p>
+          <h3>HTML &amp; CSS</h3>
+          <p>Building clean, responsive page layouts from scratch.</p>
+        </div>
+        <div class="skill-card">
+          <p class="skill-icon">✨</p>
+          <h3>JavaScript</h3>
+          <p>Small interactive touches like menus, forms, and filters.</p>
+        </div>
+        <div class="skill-card">
+          <p class="skill-icon">🎨</p>
+          <h3>Design</h3>
+          <p>Color, type, and layout choices that feel put together.</p>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="section" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+      
+        <article class="project-card">
+            <h3>Pixel Pet</h3>
+            <img class="project-thumb" src="Images/proj1.gif" alt="Short description of the design">
+          <p>A small virtual pet that reacts to clicks.</p>
+          <a href="#">View project</a>
+        </article>
+        <article class="project-card">
+            <h3>Mood Jar</h3>
+            <img class="project-thumb" src="Images/proj2.gif" alt="Short description of the design">
+              <p>A little web app where you pick an emoji and a color each day.</p>
+              <a href="#">View project</a>
+        </article>
+        <article class="project-card">
+            <h3>Logo Design</h3>
+            <img class="project-thumb" src="Images/proj3.png" alt="Short description of the design">
+              <p>A bold, modern logo featuring a turquoise eagle head and the word “AGILA”.</p>
+              <a href="#">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Get In Touch</h2>
+      <p class="contact-intro">Have a question, or just want to say hi? My inbox is always open.</p>
+
+      <form id="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <button class="btn" type="submit">Send Message</button>
+        <p class="status" id="form-status" role="status"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-content">
+      <a href="https://www.instagram.com/angelamae_ragmac/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/angela.ragmac.79" target="_blank" rel="noopener">Facebook</a>
+      <a href="#home">Home</a>
+    <p>&copy; <span id="year"></span> Angela.</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
